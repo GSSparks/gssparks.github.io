@@ -1,0 +1,4 @@
+baseURL = 'https://gssparks.github.io/'
+languageCode = 'en-us'
+title = 'GSSparks Projects'
+theme = 'ananke'
