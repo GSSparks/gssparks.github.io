@@ -12,7 +12,7 @@ menu:
         params:
             icon: user
 ---
-![gary](garyandpriscilla.jpg)
+![gary](hero-penguine.png)
 
 # Tech I Use:
 
