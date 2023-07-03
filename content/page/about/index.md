@@ -14,7 +14,6 @@ menu:
 ---
 ![gary](garyandpriscilla.jpg)
 
-user @ garysparks.info ~> I'm a Linux and technology hobbyist, with around 15 years of home-lab experience and about 5 years of professional experience, turning a passion into a profession. I'm passionate about open source software and community driven development. I'm always looking for the next new thing to learn and try.
 # Tech I Use:
 
 ### Linux:
