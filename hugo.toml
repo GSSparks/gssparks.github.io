@@ -1,4 +1,31 @@
 baseURL = 'https://gssparks.github.io/'
 languageCode = 'en-us'
-title = 'GSSparks Projects'
-theme = 'ananke'
+title = 'Gary Sparks'
+theme = 'stack'
+resourceDir = "resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[Params]
+  favicon = "/images/favicon.gif"
+  description = "Linux, Scripting, and Self-Hosting Projects"
+  mainSections = "post"
+
+[Params.Sidebar]
+  compact = false
+  emoji = ""
+  subtitle = "Linux, Scripting, and Self-Hosting Projects"
+  avatar.src = "gsparks.png"
+
+[Params.Footer]
+  since = 2022
+  customText = "Linux, Scripting, and Self-Hosting Projects"
