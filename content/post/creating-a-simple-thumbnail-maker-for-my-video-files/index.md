@@ -1,6 +1,7 @@
 ---
 title: "Creating a Simple Thumbnail Maker for my Video Files"
 date: 2022-09-18
+description: "This is a quick and easy thumnail maker for all those legally attained videos you have in your library!"
 image: "cover.png"
 ---
 When ripping some old DVDs with classic TV episodes for me and my family to enjoy, I always include a .nfo file and .jpg thumbnail file for Kodi and Jellyfin to use. I use MediaElch to scrape websites like TheTVdb.com for show information, DVD covers, fanart, and show thumbnails. However, theTVdb doesn't always provide individual episode thumbnails. MediaElch provides a thumbnail solution, but it only works for one episode at a time. And when there's 300 episodes, this solution can take quite a while.
@@ -22,7 +23,7 @@ done
 ```
 With this loop we're telling the computer for every mp4 it finds in the current directory make that file the content of the variable "file". Then we run ffmpeg with that variable as the input file and create a thumbnail. The name of the thumbnail will be the contents of the "file" variable without the ".mp4" extension and adding "-thumb.jpg."
 
-When we run this through our directory of 300 episodes, it works as expected making a thumbnail for every mp4 in the directory.
+When we run this through our directory of 300 episodes, it works as expected making a thumbnail for every mp4 in the directory.{{< image_right img="S01E01-When-Pants-Attack-thumb.jpg" >}}
 
 Sometimes, however, I want to choose a specific time in the video to create the thumbnail from. For example, some cartoons (for my kids... *cough*) have a title screen at the beginning. This way when my kids (*cough*) are looking through episodes of Jimmy Neutron, they can quickly see which episode "When Pants Attack" is!
 
