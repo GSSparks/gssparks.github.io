@@ -38,3 +38,10 @@ enableRobotsTXT = true
     [menu.main.params]
       icon = "brand-github"
       newTab = true
+  [[menu.main]]
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/gary-sparks-b97024256/"
+    weight = 11
+    [menu.main.params]
+      icon = "brand-linkedin"
+      newTab = true
