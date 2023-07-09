@@ -3,6 +3,14 @@ title: "cURLing Nextcloud"
 date: 2022-11-06
 description: "What a workout!"
 image: "cover.png"
+categories:
+- Scripts
+- Desktop
+keywords:
+- linux
+- kde
+- plasma
+- nextcloud
 ---
 One of the great things I love about using Linux on the desktop is the customization that is allowed. The only limitation is your imagination ... and skill. In my current workflow I use Nextcloud to share files between my computers and phones. This works great as is, but I wanted to take it a step further with my KDE Plasma desktop. There are two technologies that I want to fling together. One is the ability to use cURL to upload files to Nextcloud. The other is a feature that Plasma supports, Service Menus. This allows me to add more functionality to the context (right-click) menu in Dolphin, Plasma's file manager.
 

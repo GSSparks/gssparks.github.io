@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   style="isolation:isolate"
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg44"
+   sodipodi:docname="plasma.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview46"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.9023438"
+     inkscape:cx="127.82773"
+     inkscape:cy="128"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg44" />
+  <defs
+     id="defs13">
+    <filter
+       id="yiiIHFGbo9LRfP4hL2Z57WnA7lUuTMOy"
+       width="1.0842484"
+       height="1.1077841"
+       x="-0.042124196"
+       y="-0.045133094"
+       color-interpolation-filters="sRGB"
+       filterUnits="objectBoundingBox">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="4.294"
+         id="feGaussianBlur2" />
+      <feOffset
+         dx="0"
+         dy="4"
+         result="pf_100_offsetBlur"
+         id="feOffset4" />
+      <feFlood
+         flood-opacity=".4"
+         id="feFlood6" />
+      <feComposite
+         in2="pf_100_offsetBlur"
+         operator="in"
+         result="pf_100_dropShadow"
+         id="feComposite8" />
+      <feBlend
+         in="SourceGraphic"
+         in2="pf_100_dropShadow"
+         mode="normal"
+         id="feBlend10" />
+    </filter>
+  </defs>
+  <g
+     filter="url(#yiiIHFGbo9LRfP4hL2Z57WnA7lUuTMOy)"
+     id="g22">
+    <linearGradient
+       id="_lgradient_106"
+       x1="0"
+       x2="0"
+       y1="0"
+       y2="1"
+       gradientTransform="matrix(244.648,0,0,228.338,5.43,11.452)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#504945"
+         id="stop15" />
+      <stop
+         offset="100%"
+         style="stop-color:#3c3836"
+         id="stop17" />
+    </linearGradient>
+    <path
+       fill="url(#_lgradient_106)"
+       d="M 165.439 11.452 C 239.495 11.452 250.078 22.009 250.078 95.995 L 250.078 155.246 C 250.078 229.233 239.495 239.79 165.439 239.79 L 90.069 239.79 C 16.014 239.79 5.43 229.233 5.43 155.246 L 5.43 95.995 C 5.43 22.009 16.014 11.452 90.069 11.452 L 165.439 11.452 Z"
+       id="path20" />
+  </g>
+  <linearGradient
+     id="_lgradient_108"
+     x1="0"
+     x2="0"
+     y1="0"
+     y2="1"
+     gradientTransform="matrix(165,0,0,141.43,45.5,57.285)"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0%"
+       style="stop-color:#8ec07c"
+       id="stop37" />
+    <stop
+       offset="100%"
+       style="stop-color:#458588"
+       id="stop39" />
+  </linearGradient>
+  <path
+     fill="url(#_lgradient_108)"
+     fill-rule="evenodd"
+     d="M 144.729 186.752 C 149.469 182.471 153.332 177.577 154.866 170.539 C 157.918 156.539 150.498 136.779 120.533 123.31 C 92.336 110.635 87.014 91.847 91.02 79.608 C 95.061 67.265 109.942 56.123 133.053 60.835 C 135.521 61.352 137.956 62.018 140.365 62.814 C 134.193 58.697 117.181 55.576 105.945 58.324 C 84.609 63.543 63.014 73.4 52.068 96.019 C 35.293 132.753 51.767 176.189 88.794 192.83 C 109.265 201.853 128.642 201.008 144.73 186.751 L 144.729 186.752 L 144.729 186.752 L 144.729 186.752 Z M 179.071 73 C 179.071 81.679 172.036 88.715 163.357 88.715 C 154.678 88.715 147.643 81.679 147.643 73 C 147.643 64.321 154.678 57.286 163.357 57.286 C 172.036 57.286 179.071 64.321 179.071 73 L 179.071 73 L 179.071 73 Z M 202.643 104.429 C 202.643 113.108 195.607 120.143 186.929 120.143 C 178.25 120.143 171.214 113.108 171.214 104.429 C 171.214 95.75 178.25 88.715 186.929 88.715 C 195.607 88.715 202.643 95.75 202.643 104.429 L 202.643 104.429 Z M 210.5 143.715 C 210.5 152.393 203.464 159.429 194.786 159.429 C 186.107 159.429 179.071 152.393 179.071 143.715 C 179.071 135.036 186.107 128 194.786 128 C 203.464 128 210.5 135.036 210.5 143.715 Z"
+     id="path42" />
+</svg>

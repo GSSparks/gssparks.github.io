@@ -2,6 +2,13 @@
 title: "Vaultwarden/Bitwarden Docker Compose YAML File"
 date: 2022-09-05
 image: 'cover.jpg'
+categories:
+- Docker Compose
+keywords:
+- vaultwarden
+- bitwarden
+- docker-compose
+- configuration
 ---
 This is my current Vaultwarden Docker Compose yaml file.
 

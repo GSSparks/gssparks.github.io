@@ -3,6 +3,14 @@ title: "A Simple Command Line YouTube Music Player"
 date: 2022-09-19
 description: "Make your life complete with the ease of playing youtube music straight from your terminal."
 image: "cover.png"
+categories:
+- Scripts
+- Media
+keywords:
+- mpv
+- yt-dl
+- ytdl
+- youtube-dl
 ---
 `mpv` is a full function media player that I love to use. One way that I use mpv is by playing videos or music from YouTube with the youtube-dl plugin. Actually, I use a fork of youtube-dl called yt-dl, but nevertheless I digress. To play a video from Youtube using mpv just simply add the videos url.
 ```

@@ -2,6 +2,12 @@
 title: "Collabora Docker Compose YAML File"
 date: 2022-09-05
 image: 'cover.png'
+categories:
+- Docker Compose
+keywords:
+- collabora
+- docker-compose
+- configuration
 ---
 This my Docker Compose file for Collabora, which I use inside of my Nextcloud instance.
 

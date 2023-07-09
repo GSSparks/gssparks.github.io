@@ -3,6 +3,14 @@ title: "Scheduling a Pi-hole Internet Access Filter"
 date: 2022-10-15
 description: "Be the hero and children's favorite parent with this Pi-Hole trick! They'll love you for it!"
 image: "cover.jpg"
+categories:
+- Internet
+- Scripts
+keywords:
+- pi-hole
+- internet timer
+- blockers
+- systemd timers
 ---
 Pi-hole is a great ad blocking dns filter, but I wanted to take it one step further and use it to completely block internet access to certain devices during a set period of time. This wasn't too difficult to do using Systemd timers and a little sqlite3 magic.
 ## Pi-hole settings

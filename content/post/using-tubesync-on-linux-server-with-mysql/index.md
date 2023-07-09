@@ -2,6 +2,12 @@
 title: "Using Tubesync on Linux Server with MySQL"
 date: 2022-09-05
 image: "cover.png"
+categories:
+- Docker Compose
+keywords:
+- tubesync
+- docker-compose
+- configuration
 ---
 I recently installed Tubesync on my Arch Linux server to download commonly watched YouTube channels directly to my media server. Right off I noticed that if the system tried to perform a large task like indexing large channels it would timeout and return a code 500. Tubesync with it's built in SQLite database just wasn't able to keep up with larger channels. Luckily there's a [work around](https://github.com/meeb/tubesync/blob/main/docs/other-database-backends.md) by using MySQL server for the database. With this setup, I never get a code 500.
 

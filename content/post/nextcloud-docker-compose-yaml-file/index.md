@@ -1,7 +1,13 @@
 ---
 title: "Nextcloud Docker Compose YAML File"
 date: 2022-09-05
-image: "cover.png"
+image: "cover.jpg"
+categories:
+- Docker Compose
+keywords:
+- nextcloud
+- docker-compose
+- configuration
 ---
 This is my current Docker Compose YAML file for my Nextcloud instance.
 

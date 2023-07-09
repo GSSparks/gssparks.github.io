@@ -2,6 +2,12 @@
 title: "Jellyfin Docker Compose YAML File"
 date: 2022-09-05
 image: "cover.png"
+categories:
+- Docker Compose
+keywords:
+- jellyfin
+- docker-compose
+- configuration
 ---
 This is my docker compose YAML file for my Jellyfin Instance.
 

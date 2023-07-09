@@ -3,6 +3,16 @@ title: "Can a Geforce GT 710 NVENC?"
 date: 2022-10-14
 description: "Join me on a rollercoaster of emotional turmoil while I figure out if my cheap video card can use Nvidia's NVENC feature."
 image: "cover.jpg"
+categories:
+- Hardware
+- Media
+keywords:
+- NVENC
+- nvidia
+- video
+- encoding
+- Jellyfin
+- H264
 ---
 In short, yes... well maybe?
 

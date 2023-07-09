@@ -3,6 +3,14 @@ title: "Protecting my Server with fail2ban"
 description: "Recently I've been bombarded by what looks like DoS attacks and random common Wordpress exploits on my webserver -- this website. I'm looking at YOU Australia... that shady continent/country from the southern hemisphere."
 date: 2022-10-05
 image: "cover.jpg"
+categories:
+- Server Solutions
+keywords:
+- fail2ban
+- DOS attacks
+- IP
+- jails
+- protect
 ---
 Ever since first running a Wordpress server from my home, I installed fail2ban to protect against bruteforce attacks and DoS attacks. I thought everything was working as it should, but this seemed to not be the case anymore. I ran the fail2ban-client command to see how it was doing, and I quickly got the "Dude do you even have it running" response. Running the
 ```

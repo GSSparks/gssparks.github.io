@@ -2,6 +2,13 @@
 title: "My RSYNC Backup Solution"
 date: 2022-09-05
 image: "cover.png"
+categories:
+- Server Solutions
+- Scripts
+keywords:
+- rsync
+- backup
+- systemd timers
 ---
 I wanted to implement a simple backup solution for my 8TB RAID0 setup. The RAID is mounted at /mnt/storage, and the backup drive is a single 8TB drive mounted at /mnt/backup. I wanted to create a back up solution that would run every night at 1:00 am and simply copy the RAID to the single drive. I decided to use systemd-timers to schedule the backup and use RSYNC to perform the task.
 

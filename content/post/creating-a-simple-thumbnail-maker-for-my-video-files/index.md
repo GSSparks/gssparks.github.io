@@ -3,6 +3,15 @@ title: "Creating a Simple Thumbnail Maker for my Video Files"
 date: 2022-09-18
 description: "This is a quick and easy thumnail maker for all those legally attained videos you have in your library!"
 image: "cover.png"
+categories:
+- Scripts
+- Media
+keywords:
+- kodi
+- jellyfin
+- thumbnails
+- archiving dvds
+- bash
 ---
 When ripping some old DVDs with classic TV episodes for me and my family to enjoy, I always include a .nfo file and .jpg thumbnail file for Kodi and Jellyfin to use. I use MediaElch to scrape websites like TheTVdb.com for show information, DVD covers, fanart, and show thumbnails. However, theTVdb doesn't always provide individual episode thumbnails. MediaElch provides a thumbnail solution, but it only works for one episode at a time. And when there's 300 episodes, this solution can take quite a while.
 

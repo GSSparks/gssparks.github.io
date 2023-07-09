@@ -2,6 +2,12 @@
 title: "Static IP Address on an Arch Linux Headless Server"
 date: 2022-09-05
 image: cover.png
+categories:
+- Server Solutions
+keywords:
+- Arch Linux
+- DHCP
+- Static IP
 ---
 On my local Pi-Hole server I wanted to set a static IP address as opposed to dynamic. And although there are a few different ways to do this using netctl or systemd-network, I decided to use dhcpd. On this box I have a few docker containers running that make use of dhcp so it seems easiest to just use this to set the static IP address.
 First I needed to find the name of the network interface. Typing the following command will give me the name of my device.
