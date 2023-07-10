@@ -31,17 +31,14 @@ enableRobotsTXT = true
   customText = "Linux, Scripting, and Self-Hosting Projects"
 
 [menu]
-  [[menu.main]]
-    name = "Github"
+  [[menu.social]]
+    identifier = "Github"
     url = "https://github.com/GSSparks"
-    weight = 10
-    [menu.main.params]
+    [menu.social.params]
       icon = "brand-github"
-      newTab = true
-  [[menu.main]]
-    name = "Linkedin"
+
+  [[menu.social]]
+    identifier = "Linkedin"
     url = "https://www.linkedin.com/in/gary-sparks-b97024256/"
-    weight = 11
-    [menu.main.params]
+    [menu.social.params]
       icon = "brand-linkedin"
-      newTab = true

@@ -1,4 +1,4 @@
 ---
-title: hugo
+title: Hugo
 image: hugo-logo.png
 ---

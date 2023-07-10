@@ -1,0 +1,7 @@
+#!/bin/sh
+
+DIR=/mnt/server/http/garysparks-hugo/
+
+hugo && rsync -avz --delete public/ ${DIR}
+
+exit 0
