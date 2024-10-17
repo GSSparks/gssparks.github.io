@@ -2,6 +2,7 @@
 title: "WhoAmI"
 description: "As a Junior Linux Engineer with a deep-rooted passion for technology, I have been immersed in the world of Linux since the early 2000s. My journey with tech began even earlier when I picked up the BASIC documentation that came with my PCjr and began to write small programs and games, igniting a lifelong fascination with coding and systems management. In my current role, I help manage Single-Tenant infrastructure using tools like Ansible, Docker, Kubernetes, and Terraform. And beyond my professional responsibilities, I also enjoy solving problems by writing scripts in Python and Bash for personal projects for my home lab, allowing me to continually hone my skills and explore new technological frontiers.
 
+
 With a strong foundation in Linux and a proactive approach to learning and innovation, I am committed to advancing my expertise and contributing to impactful projects in the field of IT infrastructure and automation."
 aliases:
   - about-me
