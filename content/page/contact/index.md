@@ -8,5 +8,6 @@ menu:
         weight: -90
         params:
             icon: mail
+draft: true
 ---
 {{< contact_form >}}
