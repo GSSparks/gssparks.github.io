@@ -41,12 +41,9 @@ menu:
 Of course, the shortcode for this will need to be created. So I went to `layouts/shortcodes/` and created a file called `contact_form.html`. In this file, I put in the following code:
 ```
 <form action="/send_message" method="post">
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" required><br>
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" required><br>
-  <label for="message">Message</label><br>
-  <textarea id="message" name="message" required></textarea><br>
+  <input type="text" id="name" name="name" placeholder="Name" required >
+  <input type="email" id="email" name="email" placeholder="Email" required >
+  <textarea id="message" name="message" placeholder="Your Message:" required></textarea>
   <input type="submit" value="Send Message">
 </form>
 ```
