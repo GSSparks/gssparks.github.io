@@ -1,7 +1,7 @@
 baseURL = 'https://gssparks.github.io/'
 languageCode = 'en-us'
 title = 'Gary Sparks'
-theme = 'stack'
+theme = 'hugo-theme-stack'
 resourceDir = "resources"
 
 DefaultContentLanguage = "en"
