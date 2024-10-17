@@ -1,6 +1,8 @@
 ---
 title: "WhoAmI"
-description: "I'm a Linux and technology hobbyist, with around 15 years of home-lab experience and about 5 years of professional experience, turning a passion into a profession. I'm passionate about open source software and community driven development. I'm always looking for the next new thing to learn and try."
+description: "As a Junior Linux Engineer with a deep-rooted passion for technology, I have been immersed in the world of Linux since the early 2000s. My journey with tech began even earlier when I picked up the BASIC documentation that came with my PCjr and began to write small programs and games, igniting a lifelong fascination with coding and systems management. In my current role, I help manage Single-Tenant infrastructure using tools like Ansible, Docker, Kubernetes, and Terraform. And beyond my professional responsibilities, I also enjoy solving problems by writing scripts in Python and Bash for personal projects for my home lab, allowing me to continually hone my skills and explore new technological frontiers.
+
+With a strong foundation in Linux and a proactive approach to learning and innovation, I am committed to advancing my expertise and contributing to impactful projects in the field of IT infrastructure and automation."
 aliases:
   - about-me
 license: CC BY-NC-ND
@@ -11,23 +13,23 @@ menu:
         params:
             icon: user
 ---
-![gary](hero-penguine.png)
+![Penguin Ninja](hero-penguin.png)
 
-# Tech I Use:
+# Some of the Tech I Use:
 
 ### Linux:
 Have installed, configured, and used a Linux server and desktop in production for my home-lab since the mid 2000s. Have used Linux desktop (currently KDE Plasma) as a “Daily Driver” since 2010. I use Arch BTW... ;)
 
 ### LAMP:
-Successfully installed, configured, and deployed a LAMP (Linux, Apache, MySQL, PHP) stack on an Arch server for a Wordpress website. Created SSL encryption using Letsencrypt. Have since then replaced Apache with Nginx. So, perhaps, my LAMP has become a LiNMP. #dad-joke
+Successfully installed, configured, and deployed a LAMP (Linux, Apache, MySQL, PHP) stack on an Arch server for a Wordpress website. Created SSL encryption using Letsencrypt. Have since then replaced Apache with Nginx.
 
 Successfully installed, configured, and deployed into production Nextcloud, Vaultwarden (Bitwarden), Collabora, and Jellyfin servers for my household and personal use.
 
 ### Docker:
-Migrated native installations of these services to containers by learning and using Docker and Docker Compose.
+Migrated native installations of these services to containers by learning and using Docker and Docker Compose. Have containerized full stack software solutions that rely on multiple nodes to function.
 
 ### Networking:
-Secured my home network with Open Source software by utilizing OpenWRT on a Netgear Router and separating the LAN into different zones. Further secured LAN by installing an instance of Pi-Hole to use as an ad blocker and DNS/DHCP server.
+Secured my home network with Open Source software by utilizing OpenWRT on a custom built PC based router/firewall and separating the LAN into different zones. Further secured LAN by installing an instance of Pi-Hole to use as an ad blocker and DNS/DHCP server.
 
 ### Scripting:
 Created a BASH script using Systemd timers and Pi-Hole to block and unblock certain MAC/IP addresses from accessing the internet at certain times. You can read about it here.
