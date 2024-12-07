@@ -1,6 +1,6 @@
 ---
 title: "RAID10 Array with Btrfs"
-date: 2024-10-17
+date: 2024-12-07
 description: "Minimizing Downtime and Enabling Incremental Upgrades by building a RAID10 Array with Btrfs."
 image: "cover.png"
 categories:
