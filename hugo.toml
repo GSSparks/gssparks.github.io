@@ -6,7 +6,6 @@ resourceDir = "resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -14,6 +13,9 @@ enableRobotsTXT = true
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
+
+[pagination]
+  pagerSize = 10
 
 [Params]
   favicon = "/images/favicon.gif"

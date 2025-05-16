@@ -5,6 +5,7 @@ date: 2022-10-05
 image: "cover.jpg"
 categories:
 - Server Solutions
+- Security
 keywords:
 - fail2ban
 - DOS attacks

@@ -1,55 +1,51 @@
 ---
 title: "WhoAmI"
-description: "As a Junior Linux Engineer with a deep-rooted passion for technology, I have been immersed in the world of Linux since the early 2000s. My journey with tech began even earlier when I picked up the BASIC documentation that came with my PCjr and began to write small programs and games, igniting a lifelong fascination with coding and systems management. In my current role, I help manage Single-Tenant infrastructure using tools like Ansible, Docker, Kubernetes, and Terraform. And beyond my professional responsibilities, I also enjoy solving problems by writing scripts in Python and Bash for personal projects for my home lab, allowing me to continually hone my skills and explore new technological frontiers.
-
-
-With a strong foundation in Linux and a proactive approach to learning and innovation, I am committed to advancing my expertise and contributing to impactful projects in the field of IT infrastructure and automation."
+description: ""
 aliases:
   - about-me
 license: CC BY-NC-ND
-lastmod: '2023-07-02'
+lastmod: '2025-04-04'
 menu:
     main:
         weight: -90
         params:
             icon: user
 ---
-![Penguin Ninja](hero-penguin.png)
+# About Me
 
-# Some of the Tech I Use:
+I am a passionate software developer and Linux administrator with a deep-rooted expertise in automation, cloud solutions, and system optimization. My journey in technology spans from developing custom software solutions to managing complex IT infrastructures, always with a focus on efficiency, security, and scalability.
 
-### Linux:
-Have installed, configured, and used a Linux server and desktop in production for my home-lab since the mid 2000s. Have used Linux desktop (currently KDE Plasma) as a “Daily Driver” since 2010. I use Arch BTW... ;)
+# Professional Expertise
 
-### LAMP:
-Successfully installed, configured, and deployed a LAMP (Linux, Apache, MySQL, PHP) stack on an Arch server for a Wordpress website. Created SSL encryption using Letsencrypt. Have since then replaced Apache with Nginx.
+I have professional experience deploying and managing services with Ansible, HAProxy, Docker, and Kubernetes, ensuring uptime and performance across web application stacks. I proactively monitor and automate routine tasks to reduce human error and improve system resilience.
 
-Successfully installed, configured, and deployed into production Nextcloud, Vaultwarden (Bitwarden), Collabora, and Jellyfin servers for my household and personal use.
+## Software Development
 
-### Docker:
-Migrated native installations of these services to containers by learning and using Docker and Docker Compose. Have containerized full stack software solutions that rely on multiple nodes to function.
+I am particularly interested in Python development, leveraging my skills to create software that optimizes system operations and enhances user experiences. One of my recent projects, RecipeVault, demonstrates my ability to design and build applications that integrate smoothly with modern workflows. My work also extends to automation tools like send-mail, streamlining email communications on static webpages through a custom-built solution.
 
-### Networking:
-Secured my home network with Open Source software by utilizing OpenWRT on a custom built PC based router/firewall and separating the LAN into different zones. Further secured LAN by installing an instance of Pi-Hole to use as an ad blocker and DNS/DHCP server.
+## Linux Administration & Automation
 
-### Scripting:
-Created a BASH script using Systemd timers and Pi-Hole to block and unblock certain MAC/IP addresses from accessing the internet at certain times. You can read about it here.
+With a strong background in Linux administration, I have experience managing servers, automating tasks, and enhancing security. I have worked on projects involving Terraform and Terragrunt to build multi-region AWS infrastructures efficiently. I implement monitoring and alerting pipelines for web services, using tools like LogicMonitor, Grafana, InfluxDB, and custom scripts to ensure system health. I troubleshoot issues across the full stack, automate resolution where possible, and apply structured postmortem practices. 
 
-Created a Backup solution for my home-lab server by using Rsync, Systemd timers, and BASH.
+# Key Personal Projects
 
-### VPN:
-Created a VPN, using Tailscale, to use when outside of the home LAN.
+- RecipeVault: A small Python-based project for managing recipes, incorporating UI development.
 
-## Programming Projects:
+- Send-Mail: A server written in Node.js that sends Contact US form mail from a static website. 
 
-### archive-dl:
-An archive.org downloader written in python.
+- Nextcloud & Collabora Integration: Managing self-hosted cloud storage and office suite services, ensuring secure document collaboration.
 
-### thumbnail:
-A thumbnail maker using BASH and ffmpeg.
+- Smart Speaker Development: Building a local, open-source alternative to Amazon Echo using Raspberry Pi, Ollama, Home Assistant and Snapcast for synchronized audio playback.
 
-### home-backup:
-A BASH script that will backup your home folders in compressed tarballs if changes are detected.
+## Cloud & Home Automation
+
+I integrate cloud services with automation platforms, running a self-hosted Nextcloud instance and configuring Home Assistant to replace proprietary smart home solutions. I have developed a fully operational Snapcast-based synchronized audio system controlled through Home Assistant, demonstrating my ability to blend open-source technologies into seamless smart home experiences.
+
+# Philosophy & Approach
+
+I believe in the power of automation and open-source software to enhance productivity and security. My approach involves optimizing existing processes, eliminating inefficiencies, and developing custom solutions that align with both business and personal needs.
+
+I am always looking for ways to push the boundaries of technology, whether by automating system administration tasks, developing intuitive applications, or creating smarter home automation solutions. My work is driven by curiosity, innovation, and the pursuit of excellence in every project I undertake.
 
 # In My Toolbox:
 |         |          |            |
@@ -58,9 +54,15 @@ A BASH script that will backup your home folders in compressed tarballs if chang
 | Git     | HAProxy  | Kubernetes |
 | Linux   | MySQL    | Nginx      |
 | Nix     | Python   | Vagrant    |
-| Varnish |          |            |
+| Varnish | HAproxy  |            |
 
+# Certifications
 
-# Other Hobbies and Interests:
+## LE-1: Linux Essentials
 
-In addition to loving all things electronics and technology, I enjoy creating and making things with my wife for our home. I also enjoy modding and doing general maintenance on my cars.
+[![LE-1](cert_le-1.jpeg)](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000637767/zg9wagth8l)
+[Click here for verification](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000637767/zg9wagth8l)
+
+# Let’s Connect
+
+I enjoy collaborating on open-source projects, engaging in discussions about system optimization, and mentoring others in the field. If you're interested in discussing potential projects, automation strategies, or technology trends, feel free to reach out!
