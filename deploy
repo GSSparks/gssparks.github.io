@@ -2,6 +2,6 @@
 
 DIR=/mnt/server/http/garysparks-hugo/
 
-hugo && rsync -avz --delete public/ ${DIR}
+hugo && rsync -rlvz --delete --perms --chmod=D755,F644 public/ ${DIR}
 
 exit 0
