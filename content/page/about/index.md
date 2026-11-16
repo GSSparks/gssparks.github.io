@@ -4,7 +4,7 @@ description: ""
 aliases:
   - about-me
 license: CC BY-NC-ND
-lastmod: '2025-04-04'
+lastmod: '2026-11-16'
 menu:
     main:
         weight: -90
@@ -13,39 +13,25 @@ menu:
 ---
 # About Me
 
-I am a passionate software developer and Linux administrator with a deep-rooted expertise in automation, cloud solutions, and system optimization. My journey in technology spans from developing custom software solutions to managing complex IT infrastructures, always with a focus on efficiency, security, and scalability.
+I build things. If there's a problem I'd rather automate it away or build something that solves it than sit with it. By day I'm a DevOps engineer — Terraform, Ansible, Docker, Kubernetes — standing up infrastructure on AWS, Linode, and OVirt. I'm a Linux person through and through, and a NixOS convert: I manage most of my machines through a single [nixos-config](https://github.com/GSSparks/nixos-config) repo.
 
-# Professional Expertise
+## Home Lab
 
-I have professional experience deploying and managing services with Ansible, HAProxy, Docker, and Kubernetes, ensuring uptime and performance across web application stacks. I proactively monitor and automate routine tasks to reduce human error and improve system resilience.
+A lot of what shows up on this blog comes from my home lab. At any given time I'm running Home Assistant, Nextcloud, Jellyfin, OPNsense, and Frigate — plus whatever new project has grabbed my attention that week. Self-hosting is partly pragmatic and partly philosophical: I'd rather own my stack than rent it.
 
-## Software Development
+## Projects
 
-I am particularly interested in Python development, leveraging my skills to create software that optimizes system operations and enhances user experiences. One of my recent projects, RecipeVault, demonstrates my ability to design and build applications that integrate smoothly with modern workflows. My work also extends to automation tools like send-mail, streamlining email communications on static webpages through a custom-built solution.
+Most of what I build ends up on [GitHub](https://github.com/GSSparks). A few worth calling out:
 
-## Linux Administration & Automation
+- **[StackLore](https://stacklore.io)** — AI-generated infrastructure documentation. Connect a GitHub or GitLab repo and it automatically generates clear, searchable docs for your Ansible, Terraform, and CI/CD code. Built in Python.
 
-With a strong background in Linux administration, I have experience managing servers, automating tasks, and enhancing security. I have worked on projects involving Terraform and Terragrunt to build multi-region AWS infrastructures efficiently. I implement monitoring and alerting pipelines for web services, using tools like LogicMonitor, Grafana, InfluxDB, and custom scripts to ensure system health. I troubleshoot issues across the full stack, automate resolution where possible, and apply structured postmortem practices. 
+- **[NutrifyIQ](https://nutrifyiq.com)** — An AI-powered meal planning and recipe app. Search a recipe database or generate new recipes based on what you have on hand.
 
-# Key Personal Projects
+- **[Scriptorium](https://github.com/GSSparks/Scriptorium)** *(rebranding as ScriptKata)* — A Bible study app. GPL licensed, built in collaboration with Claude.
 
-- RecipeVault: A small Python-based project for managing recipes, incorporating UI development.
+## On AI
 
-- Send-Mail: A server written in Node.js that sends Contact US form mail from a static website. 
-
-- Nextcloud & Collabora Integration: Managing self-hosted cloud storage and office suite services, ensuring secure document collaboration.
-
-- Smart Speaker Development: Building a local, open-source alternative to Amazon Echo using Raspberry Pi, Ollama, Home Assistant and Snapcast for synchronized audio playback.
-
-## Cloud & Home Automation
-
-I integrate cloud services with automation platforms, running a self-hosted Nextcloud instance and configuring Home Assistant to replace proprietary smart home solutions. I have developed a fully operational Snapcast-based synchronized audio system controlled through Home Assistant, demonstrating my ability to blend open-source technologies into seamless smart home experiences.
-
-# Philosophy & Approach
-
-I believe in the power of automation and open-source software to enhance productivity and security. My approach involves optimizing existing processes, eliminating inefficiencies, and developing custom solutions that align with both business and personal needs.
-
-I am always looking for ways to push the boundaries of technology, whether by automating system administration tasks, developing intuitive applications, or creating smarter home automation solutions. My work is driven by curiosity, innovation, and the pursuit of excellence in every project I undertake.
+I use AI heavily — Claude specifically. It's not a shortcut; it's closer to a pair programmer who doesn't get tired. StackLore and Scriptorium are both projects that only got built because AI let me move fast enough to actually finish them. I don't see anything wrong with that.
 
 # In My Toolbox:
 |         |          |            |
@@ -54,7 +40,7 @@ I am always looking for ways to push the boundaries of technology, whether by au
 | Git     | HAProxy  | Kubernetes |
 | Linux   | MySQL    | Nginx      |
 | Nix     | Python   | Vagrant    |
-| Varnish | HAproxy  |            |
+| Varnish |          |            |
 
 # Certifications
 
@@ -65,4 +51,4 @@ I am always looking for ways to push the boundaries of technology, whether by au
 
 # Let’s Connect
 
-I enjoy collaborating on open-source projects, engaging in discussions about system optimization, and mentoring others in the field. If you're interested in discussing potential projects, automation strategies, or technology trends, feel free to reach out!
+If something on the blog was useful, or you want to talk shop about Linux, home labs, or DevOps, feel free to reach out.
